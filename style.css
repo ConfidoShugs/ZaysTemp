@@ -1,0 +1,1001 @@
+.first-nav{
+    height: 40px;
+    width: 100%;
+    background-color: #343a40;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.mail-icon{
+    height: 20px;
+    width: 20px;
+    /* background-color: pink; */
+    margin-left: 10%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    
+}
+
+.mail{
+    height: 20px;
+    width: 110px;
+    /* background-color: pink; */
+    margin-left: 12%;
+    position: absolute;
+    font-size: 13px;
+}
+
+.mail a{
+    text-decoration: none;
+    color: white;
+}
+
+.call-icon{
+    height: 20px;
+    width: 20px;
+    /* background-color: yellow; */
+    margin-left: 20%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.call{
+    height: 20px;
+    width: 140px;
+    /* background-color: yellow; */
+    margin-left: 22%;
+    position: absolute;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.call a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-tab{
+    height: 20px;
+    width: 140px;
+    /* background-color: palegreen; */
+    margin-left: 85%;
+    position: absolute;
+}
+
+.fb{
+    height: 20px;
+    width: 20px;
+    /* background-color: orange; */
+    margin-left: 27%;
+    position: absolute; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb a{
+    color: white;
+}
+
+.insta{
+    height: 20px;
+    width: 20px;
+    /* background-color: teal; */
+    margin-left: 47%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.insta a{
+    color: white;
+}
+
+.twitter{
+    height: 20px;
+    width: 20px;
+    /* background-color: magenta; */
+    margin-left: 66%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter a{
+    color: white;
+}
+
+.linkedin{
+    height: 20px;
+    width: 20px;
+    /* background-color: navy; */
+    margin-left: 85%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin a{
+    color: white;
+}
+
+.second-nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: gray; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 100px;
+    /* background-color: yellow; */
+    position: absolute;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    color: #59ab6e;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #59ab6e;
+
+}
+
+.title-tab{
+    height: 40px;
+    width: 550px;
+    /* background-color: palegreen; */
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home{
+    height: 40px;
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    height: 40px;
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.shop{
+    height: 40px;
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    height: 40px;
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.home a, .about a, .shop a, .contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.home-text:hover{
+    color: #59ab6e; 
+}
+
+.about-text:hover{
+    color: #59ab6e; 
+}
+
+.shop-text:hover{
+    color: #59ab6e; 
+}
+
+.contact-text:hover{
+    color: #59ab6e;   
+}
+
+.shop-tab{
+    height: 40px;
+    width: 10%;
+    /* background-color: purple; */
+    margin-left: 18%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search{
+    height: 30px;
+    width: 40px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search a{
+    color: #343a40;
+}
+
+.cart{
+    height: 30px;
+    width: 40px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart a{
+    color: #343a40;
+}
+
+.profile{
+    height: 30px;
+    width: 40px;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile a{
+    color: #343a40;
+}
+
+.third-nav{
+    height: 700px;
+    width: 100%;
+    background-color: #ebe8e8ea;
+    position: relative;
+}
+
+.shoe-tab{
+    height: 550px;
+    width: 35%;
+    /* background-color: aqua; */
+    position: absolute;
+    margin-left: 55%;
+    position: absolute;
+    top: 10%;
+    background-image: url(img/banner_img_02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.commerce-tab{
+    height: 60px;
+    width: 30%;
+    /* background-color: firebrick; */
+    position: absolute;
+    top: 30%;
+    margin-left: 10%;
+    font-size: 50px;
+}
+
+.commondo-tab{
+    height: 40px;
+    width: 35%;
+    /* background-color: darkcyan; */
+    position: absolute;
+    top: 40%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.credits-tab{
+    height: 100px;
+    width: 40%;
+    /* background-color: firebrick; */
+    position: absolute;
+    top: 47%;
+    margin-left: 10%;
+    font-size: 19px;
+}
+
+.fourth-nav{
+    height: 850px;
+    width: 100%;
+    /* background-color: gray; */
+    position: relative;
+}
+
+.month-tab{
+    height: 70px;
+    width: 40%;
+    /* background-color: hotpink; */
+    position: absolute;
+    top: 80px;
+    margin-left: 30%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.culpa-tab{
+    height: 30px;
+    width: 50%;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 160px;
+    margin-left: 25%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.mollit-tab{
+    height: 30px;
+    width: 20%;
+    /* background-color: olive; */
+    position: absolute;
+    top: 190px;
+    margin-left: 40%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.wears-tab{
+    height: 400px;
+    width: 90%;
+    /* background-color: palegreen; */
+    position: absolute;
+    top: 280px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.watches{
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    /* background-color: hotpink; */
+    background-image: url(img/category_img_01.jpg);
+    background-size: contain;
+}
+
+.shoes{
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    /* background-color: hotpink; */
+    background-image: url(img/category_img_02.jpg);
+    background-size: contain;
+}
+
+.accesories{
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    /* background-color: hotpink; */
+    background-image: url(img/category_img_03.jpg);
+    background-size: contain;
+}
+
+.watches-text{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    position: absolute;
+    top: 650px;
+    margin-left: 18%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoes-text{
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    position: absolute;
+    top: 650px;
+    margin-left: 46%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accesories-text{
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    top: 650px;
+    margin-left: 74%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-one{
+    height: 40px;
+    width: 100px;
+    background-color: #59ab6e;
+    position: absolute;
+    top: 700px;
+    margin-left: 18.5%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    color: white;
+}
+
+.shop-two{
+    height: 40px;
+    width: 100px;
+    background-color: #59ab6e;
+    position: absolute;
+    top: 700px;
+    margin-left: 46.5%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    color: white;
+}
+
+.shop-three{
+    height: 40px;
+    width: 100px;
+    background-color: #59ab6e;
+    position: absolute;
+    top: 700px;
+    margin-left: 76%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    color: white;
+}
+
+.fifth-nav{
+    height: 1000px;
+    width: 100%;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.featured-tab{
+    height: 70px;
+    width: 30%;
+    /* background-color: hotpink; */
+    position: absolute;
+    top: 80px;
+    margin-left: 35%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nulla-tab{
+    height: 30px;
+    width: 40%;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 160px;
+    margin-left: 30%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.sint-tab{
+    height: 30px;
+    width: 34%;
+    /* background-color: olive; */
+    position: absolute;
+    top: 190px;
+    margin-left: 33%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.weight-tab{
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 260px;
+    margin-left: 10%;
+}
+
+.weight-pic{
+    height: 300px;
+    width: 100%;
+    /* background-color: green; */
+    background-image: url(img/feature_prod_01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.weight-stars{
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    top: 46%;
+    /* background-color: indianred; */
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: yellow;
+}
+
+.weight-price{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 46%;
+    /* background-color: tomato; */
+    margin-left: 75%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+}
+
+.weight-title{
+    height: 50px;
+    width: 180px;
+    margin-left: 5%;
+    position: absolute;
+    top: 55%;
+    /* background-color: pink; */
+    font-size: 32px;
+    display: flex;
+}
+
+.weight-text{
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: powderblue; */
+    position: absolute;
+    top: 63%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.weight-review{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 74%;
+    /* background-color: lawngreen; */
+    margin-left: 5%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #ccc;
+}
+
+.weight-block{
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    background-color: #f8f9fa;
+}
+
+/* cloud time */
+
+.cloud-tab{
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 260px;
+    margin-left: 38%;
+}
+
+.cloud-pic{
+    height: 300px;
+    width: 100%;
+    /* background-color: green; */
+    background-image: url(img/feature_prod_02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cloud-stars{
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    top: 46%;
+    /* background-color: indianred; */
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: yellow;
+}
+
+.cloud-price{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 46%;
+    /* background-color: tomato; */
+    margin-left: 75%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+}
+
+.cloud-title{
+    height: 50px;
+    width: 250px;
+    margin-left: 5%;
+    position: absolute;
+    top: 55%;
+    /* background-color: pink; */
+    font-size: 32px;
+    display: flex;
+}
+
+.cloud-text{
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: powderblue; */
+    position: absolute;
+    top: 63%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.cloud-review{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 74%;
+    /* background-color: lawngreen; */
+    margin-left: 5%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #ccc;
+}
+
+.cloud-block{
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    background-color: #f8f9fa;
+}
+
+/* summer time  */
+
+.summer-tab{
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 260px;
+    margin-left: 66%;
+}
+
+.summer-pic{
+    height: 300px;
+    width: 100%;
+    /* background-color: green; */
+    background-image: url(img/feature_prod_03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.summer-stars{
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    top: 46%;
+    /* background-color: indianred; */
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: yellow;
+}
+
+.summer-price{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 46%;
+    /* background-color: tomato; */
+    margin-left: 75%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+}
+
+.summer-title{
+    height: 50px;
+    width: 350px;
+    margin-left: 5%;
+    position: absolute;
+    top: 55%;
+    /* background-color: pink; */
+    font-size: 32px;
+    display: flex;
+}
+
+.summer-text{
+    height: 60px;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: powderblue; */
+    position: absolute;
+    top: 63%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.summer-review{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 74%;
+    /* background-color: lawngreen; */
+    margin-left: 5%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #ccc;
+}
+
+.summer-block{
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    background-color: #f8f9fa;
+}
+
+.sixth-nav{
+    height: 330px;
+    width: 100%;
+    background-color: #343a40;
+    position: relative;
+    border-bottom: #ccc 1px solid;
+}
+
+.zay-tab{
+    height: 200px;
+    width: 400px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 50px;
+    margin-left: 10%;
+}
+
+.zay-title{
+    height: 60px;
+    width: 100%;
+    /* background-color: yellow; */
+    color: #59ab6e;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    border-bottom: gray 1px solid;
+}
+
+.zay-location-icon{
+    height: 30px;
+    width: 30px;
+    /* background-color: gray; */
+    position: absolute;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.zay-location-text{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    font-size: 20px;
+    color: white;
+}
+
+.zay-call-icon{
+    height: 30px;
+    width: 30px;
+    /* background-color: gray; */
+    position: absolute;
+    top: 65%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.zay-call-text{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 65%;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.zay-mail-icon{
+    height: 30px;
+    width: 30px;
+    /* background-color: gray; */
+    position: absolute;
+    top: 85%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.zay-mail-text{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 85%;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    font-size: 20px;
+    color: white;
+}
+
+.products-tab{
+    height: 280px;
+    width: 400px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 50px;
+    margin-left: 38%;
+}
+
+.products-title{
+    height: 60px;
+    width: 100%;
+    /* background-color: yellow; */
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-bottom: gray 1px solid;
+}
+
+.products-list{
+    height: 200px;
+    width: 80%;
+    /* background-color: indianred; */
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.further-tab{
+    height: 280px;
+    width: 400px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 50px;
+    margin-left: 66%;
+}
+
+.further-title{
+    height: 60px;
+    width: 100%;
+    /* background-color: yellow; */
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-bottom: gray 1px solid;
+}
+
+.further-list{
+    height: 200px;
+    width: 80%;
+    /* background-color: indianred; */
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/* .last-nav{
+    height: 150px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+}
+
+.last-social-tab{
+    height: 100px;
+    width: 20%;
+    background-color: red;
+}
+
+.last-fb{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
